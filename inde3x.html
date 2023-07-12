@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="s.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mahmod">
+        <h1>هل أني راجل ؟</h1>
+    </div>
+     <div >
+        <h1 id="m">حط الماوس جرب شوف كانك راجل ؟ !!!</h1>
+        <p id="m2">للأسف بعد عدة محاولات طلعت مش راجل !!!</p>
+     </div>
+
+     <script>
+       m = document.getElementById("m")
+       m2 = document.getElementById("m2").style.display
+         m.onclick= function(){
+            m2 = 'flex'
+            if(      document.getElementById("m2").style.display == 'flex'){
+                document.getElementById("m2").style.display = 'none'
+            }else{
+                document.getElementById("m2").style.display = 'flex' 
+            }
+     
+    }
+     </script>
+</body>
+</html>

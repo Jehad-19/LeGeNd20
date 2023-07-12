@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>first form</title>
+        <fieldset>
+    </head>
+    <body>
+        <div>
+            <form>
+                <div>
+                    <label>username</label>
+                    <input type="text" required placeholder="username" minlength="3" maxlength="5">
+                </div>
+                <br>
+               <div>
+                <label>password</label>
+                <input type="password" required placeholder="password">
+                </div>
+                <input type="reset" value="reset">
+                <br>
+                <label>number</label>
+                <input type="number" value="number" min="10" max="100" step="12">
+                <br>
+                <input type="submit" value="send">
+
+</form>
+        </div>
+        <hr>
+        <div>
+            
+            <input type="radio" name="os" value="windows">
+            <label>windows</label>
+        </div> <hr>
+        <div>
+            
+            <input type="radio" name="os" value="windows" checked>
+            <label>mac</label>
+        </div> <hr>
+        <div>
+            
+            <input type="radio" name="os" value="windows">
+            <label>linux</label>
+            <input type="reset" value="reset">
+        </div>
+        <hr>
+        <label for="book">choose game</label>
+        <select name="book" id="book">
+            <optgroup label="nice games">
+                <option value="">tomb raider</option>
+                <option value="">god of war</option>
+                <option value="">rocket league</option>
+                </optgroup>
+                <optgroup label="best games">
+                    <option value="">fortnite</option>
+                    <option value="">cod </option>
+                    <option value="">dying light 2</option>
+                    </optgroup>
+        </select>
+        <br>
+        <textarea name="subject" cols="30" rows="30" placeholder="enter text"></textarea>
+    </body>
+</html>
